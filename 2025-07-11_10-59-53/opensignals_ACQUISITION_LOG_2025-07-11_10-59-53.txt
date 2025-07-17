@@ -1,0 +1,45 @@
+# LOG FILE HEADER
+# {"smartphone":LIBPhys #004,"Date_Time":2025-07-11_10-59-53,"column":["LOG_TIME","LOG"]}
+# EndOfHeader
+10:59:53.227	LOGGER: acquisition service started (onCreate called)
+10:59:53.476	OS SERVER: connected to OS device: ANDROID
+10:59:53.518	LOGGER: acquisition started
+10:59:53.519	OS SERVER: opensignals server initialised...running
+10:59:53.552	NOISERECORDER: NOISERECORDER initialised
+10:59:53.614	NOISERECORDER: NOISERECORDER started
+10:59:53.624	SMARTWATCH: listeners for communication between smartphone and smartwatch initialised: MessageListener, OnDataChangedListener, OnCapabilityChangedListener
+10:59:53.626	SMARTWATCH: smartwatch assets initialised
+10:59:53.627	WEAR_COMMUNICATION: trying to establish connection with smartwatch (attempt: 1 of 10)
+10:59:53.638	SENSOR_DATA: received first data from M2003J15SC
+10:59:53.733	OS SERVER: connected to OS device: MUSCLEBAN
+10:59:53.758	OS SERVER: OS device state changed for: 88:6B:0F:AB:F7:03 state: CONNECTING
+10:59:54.423	SENSOR_DATA: received first data from NOISERECORDER
+10:59:55.031	OS SERVER: connected to OS device: MUSCLEBAN
+10:59:55.049	OS SERVER: OS device state changed for: 58:8E:81:A2:49:C7 state: CONNECTING
+10:59:57.025	OS SERVER: OS device state changed for: 88:6B:0F:AB:F7:03 state: CONNECTED
+10:59:57.157	OS SERVER: OS device state changed for: 88:6B:0F:AB:F7:03 state: ACQUISITION_TRYING
+10:59:57.239	OS SERVER: OS device state changed for: 88:6B:0F:AB:F7:03 state: ACQUISITION_OK
+10:59:57.244	SENSOR_DATA: received first data from 88:6B:0F:AB:F7:03
+10:59:57.915	OS SERVER: OS device state changed for: 58:8E:81:A2:49:C7 state: CONNECTED
+10:59:58.009	OS SERVER: OS device state changed for: 58:8E:81:A2:49:C7 state: ACQUISITION_TRYING
+10:59:58.035	OS SERVER: OS device state changed for: 58:8E:81:A2:49:C7 state: ACQUISITION_OK
+10:59:58.042	SENSOR_DATA: received first data from 58:8E:81:A2:49:C7
+11:00:08.630	WEAR_COMMUNICATION: trying to establish connection with smartwatch (attempt: 2 of 10)
+11:00:23.632	WEAR_COMMUNICATION: trying to establish connection with smartwatch (attempt: 3 of 10)
+11:00:38.636	WEAR_COMMUNICATION: trying to establish connection with smartwatch (attempt: 4 of 10)
+11:00:53.415	LOGGER: stopping acquisition
+11:00:53.416	NOISERECORDER: finishing NOISERECORDER recording
+11:00:53.418	WEAR_COMMUNICATION: finished smartwatch recording
+11:00:53.451	FILE ZIP UTILS: Output to Zip : /data/user/0/pt.libphys.prevoccupai/files/2025-07-11_10-59-53
+11:00:53.452	FILE ZIP UTILS: File Added : opensignals_ANDROID_ACCELEROMETER_2025-07-11_10-59-53.txt
+11:00:53.526	FILE ZIP UTILS: File Added : opensignals_ANDROID_MAGNETIC_FIELD_2025-07-11_10-59-53.txt
+11:00:53.544	FILE ZIP UTILS: File Added : opensignals_ANDROID_ROTATION_VECTOR_2025-07-11_10-59-53.txt
+11:00:53.591	FILE ZIP UTILS: File Added : opensignals_ACQUISITION_LOG_2025-07-11_10-59-53.txt
+11:00:53.594	FILE ZIP UTILS: File Added : opensignals_ANDROID_NOISERECORDER_2025-07-11_10-59-53.txt
+11:00:53.596	FILE ZIP UTILS: File Added : opensignals_588E81A249C7_2025-07-11_10-59-55.txt
+11:00:53.971	FILE ZIP UTILS: File Added : opensignals_886B0FABF703_2025-07-11_10-59-53.txt
+11:00:54.438	FILE ZIP UTILS: File Added : opensignals_ANDROID_GYROSCOPE_2025-07-11_10-59-53.txt
+11:00:54.470	FILE ZIP UTILS: Folder successfully compressed
+11:00:54.474	OS SERVER: opensignals server closed
+11:01:50.257	GOOGLE DRIVE UPLOAD: failed to upload to server
+11:01:50.261	LOGGER: closing log file...end
